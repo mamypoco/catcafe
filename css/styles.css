@@ -1,5 +1,27 @@
+body {
+    font-family: "Open Sans", sans-serif; }
+
 .jumbotron {
-    margin: 0;
+    margin: 200;
     padding: 30px;
-    background-image: linear-gradient(to right, #5637dd, #3046C5, #60106b);
+    background-image: linear-gradient(to right, #E6DDC4, #d4ac2b, #533535);
     color: white; }
+
+
+nav {
+    font-size: 25px;
+}
+
+.row-content {
+    padding: 50px 0;
+    margin-left: 300px;
+    margin-right: 300px;
+     }
+
+.site-footer {
+    background-color:  white;
+    padding: 20 px 0; } 
+    
+
+
+
