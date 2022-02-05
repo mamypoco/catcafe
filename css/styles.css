@@ -1,6 +1,9 @@
 body {
     font-family: "Open Sans", sans-serif; }
 
+.carousel-caption {
+        background-color: rgba(0, 0, 0, 0.5); }
+
 .jumbotron {
     margin: 200;
     padding: 30px;
@@ -19,8 +22,11 @@ nav {
      }
 
 .site-footer {
-    background-color:  white;
-    padding: 20 px 0; } 
+    
+    background-color: black;
+    color: white;    
+    padding: 20 px; 
+} 
     
 
 
