@@ -1,6 +1,10 @@
 body {
     font-family: "Open Sans", sans-serif; }
 
+h1, h2, h3, h4, h5 {
+        font-family: 'Bitter', serif; }
+
+
 .carousel-caption {
         background-color: rgba(0, 0, 0, 0.5); }
 
@@ -12,13 +16,13 @@ body {
 
 
 nav {
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .row-content {
-    padding: 50px 0;
-    margin-left: 300px;
-    margin-right: 300px;
+    padding: 40px 0;
+    margin-left: 40px;
+    margin-right: 40px;
      }
 
 .site-footer {
