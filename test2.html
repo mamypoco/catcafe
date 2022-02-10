@@ -91,11 +91,11 @@
                     <div class="modal-body">
                         <div class="container-fluid">
                         
-                            <form id="bookForm">
+                            <form id="reserveForm">
                                 <div class="form-group row">
-                                    <label for="numPeople" class="col-sm-6 col-xs-12 col-form-label">Number of people</label>
+                                    <label for="numCampers" class="col-sm-6 col-xs-12 col-form-label">Number of people</label>
                                     <div class="col">
-                                        <select class="form-control" name="numPeople" id="numPeople">
+                                        <select class="form-control" name="numCampers" id="numCampers">
                                             <option selected>select ...</option>
                                             <option value="1">1</option>
                                             <option value="2">2</option>
@@ -114,23 +114,14 @@
                                 </div>    
                                 
                                 <div class="form-group row">
-                                    <label class="col-sm-3 col-form-label">Cat Type</label>   
-                                    <div class="col-3 btn-group btn-group-toggle" data-toggle="buttons">
+                                    <label class="col-sm-6 col-form-label">Campsite Type</label>   
+                                    <div class="col-2 btn-group btn-group-toggle" data-toggle="buttons">
     
-                                        <label class="btn btn-warning">
-                                            <input type="radio" id="tabby" name="Type" value="tabby">Tabby
+                                        <label class="btn btn-success">
+                                            <input type="radio" id="siteTent" name="siteType" value="tent">Tent
                                         </label>
-                                        <label class="btn btn-secondary">    
-                                            <input type="radio" id="taxido" name="Type" value="taxido">Taxido
-                                        </label>
-                                        <label class="btn btn-dark">    
-                                            <input type="radio" id="black" name="Type" value="black">Black
-                                        </label>
-                                        <label class="btn btn-warning">    
-                                            <input type="radio" id="fluffy" name="Type" value="fluffy">Fluffy
-                                        </label>
-                                        <label class="btn btn-secondary">    
-                                            <input type="radio" id="other" name="Type" value="Other">Other
+                                        <label class="btn btn-primary">    
+                                            <input type="radio" id="siteRV" name="siteType" value="RV">RV
                                         </label>
                                     </div>
                                 </div>    
@@ -142,15 +133,17 @@
                                     </div>
                                 </div>
                             </form>                    
+                        
                         </div>
                     </div>
                 </div>
-            </div>
+            </div>    
         </div>
     </div>
-                
-    <!-- Carousel to swipe cat pictures -->
+       
+
     <div class="container">
+        <!-- Carousel to swipe cat pictures -->
         <div class="row row-content">
             <div class="col-md-8 mx-auto">
                 <div id="homeCarousel" class="carousel slide" data-ride="carousel">
@@ -238,7 +231,7 @@
             </div>
         </div>
     </div>
-
+    
     <div class="container">
         <div class="media row row-content">
             <div class="col-md-6 col-sm-12">
